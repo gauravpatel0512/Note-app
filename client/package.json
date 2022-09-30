@@ -1,0 +1,54 @@
+{
+	"name": "note-taking-app",
+	"version": "0.1.0",
+	"private": true,
+	"proxy": "http://localhost:5000/api/v1/notes",
+	"dependencies": {
+		"@emotion/react": "^11.10.4",
+		"@emotion/styled": "^11.10.4",
+		"@material/card": "^14.0.0",
+		"@mui/icons-material": "^5.10.6",
+		"@mui/material": "^5.10.6",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
+		"axios": "^0.27.2",
+		"concurrently": "^7.4.0",
+		"dotenv": "^16.0.2",
+		"express": "^4.18.1",
+		"mongoose": "^6.6.1",
+		"nodemon": "^2.0.20",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router": "^6.4.1",
+		"react-router-dom": "^6.4.1",
+		"react-scripts": "5.0.1",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"client": "npm start",
+		"server": "cd server && nodemon app.js"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
